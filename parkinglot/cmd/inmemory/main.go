@@ -30,7 +30,7 @@ func main() {
 		input := strings.TrimSpace(scanner.Text())
 		parts := strings.Fields(input)
 		if len(parts) == 0 {
-			fmt.Println("invalid command")~
+			fmt.Println("invalid command")
 			continue
 		}
 
